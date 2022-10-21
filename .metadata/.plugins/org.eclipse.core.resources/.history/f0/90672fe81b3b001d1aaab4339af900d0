@@ -1,0 +1,17 @@
+package operators;
+
+public class ArthimaticOperators {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int result = 1 + 2;
+
+		System.out.println("1+2 = " + result);
+		int original_result = result;
+
+		result = result - 1;
+		System.out.println(original_result + " -1 " + result);
+		original_result = result;
+	}
+
+}
